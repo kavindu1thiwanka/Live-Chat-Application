@@ -226,26 +226,6 @@ public class ClientFormController implements Initializable {
     public void openEmojiPanel(ActionEvent actionEvent) throws IOException {
 
         if (!emojiBoxVisibility){
-//            byte[] smiling_eyes = new byte[]{(byte)0xF0, (byte)0x9F, (byte)0x98, (byte)0x81};
-//            String emoji1 = new String(smiling_eyes, Charset.forName("UTF-8"));
-//
-//            byte[] tears_of_joy = new byte[]{(byte)0xF0, (byte)0x9F, (byte)0x98, (byte)0x82};
-//            String emoji2 = new String(tears_of_joy, Charset.forName("UTF-8"));
-//
-//            byte[] heart_shaped_eyes = new byte[]{(byte)0xF0, (byte)0x9F, (byte)0x98, (byte)0x8D};
-//            String emoji3 = new String(heart_shaped_eyes, Charset.forName("UTF-8"));
-//
-//            byte[] winking_eye = new byte[]{(byte)0xF0, (byte)0x9F, (byte)0x98, (byte)0x9C};
-//            String emoji4 = new String(winking_eye, Charset.forName("UTF-8"));
-//
-//            byte[] smiling_open_mouth = new byte[]{(byte)0xF0, (byte)0x9F, (byte)0x98, (byte)0x85};
-//            String emoji5 = new String(smiling_open_mouth, Charset.forName("UTF-8"));
-//
-//            button1 = new JFXButton(emoji1);
-//            button2 = new JFXButton(emoji2);
-//            button3 = new JFXButton(emoji3);
-//            button4 = new JFXButton(emoji4);
-//            button5 = new JFXButton(emoji5);
             emojiPane.setVisible(true);
             emojiBoxVisibility=true;
         }else {
