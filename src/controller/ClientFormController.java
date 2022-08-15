@@ -188,6 +188,7 @@ public class ClientFormController implements Initializable {
             hBox.setPadding(new Insets(5,5,5,10));
 
             Text text=new Text(msgToSend);
+            text.setStyle("-fx-font-size: 13");
             text.setFill(Color.color(0.934,0.945,0.996));
             TextFlow textFlow=new TextFlow(text);
             textFlow.setStyle("-fx-color: rgb(239,242,255);" + "-fx-background-color: rgb(15,125,242);" + "-fx-background-radius: 20px");
@@ -207,6 +208,7 @@ public class ClientFormController implements Initializable {
         hBox.setPadding(new Insets(5,10,5,10));
 
         Text text=new Text(msg);
+        text.setStyle("-fx-font-size: 13");
         TextFlow textFlow=new TextFlow(text);
         textFlow.setStyle("-fx-background-color: rgb(233,233,235); " +
                 "-fx-background-radius: 20px");
@@ -220,8 +222,6 @@ public class ClientFormController implements Initializable {
             }
         });
     }
-
-
 
     public void openEmojiPanel(ActionEvent actionEvent) throws IOException {
 
