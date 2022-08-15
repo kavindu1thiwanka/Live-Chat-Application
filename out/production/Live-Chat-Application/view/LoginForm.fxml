@@ -11,17 +11,17 @@
 
 <AnchorPane fx:id="root" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
    <children>
-      <Text layoutX="263.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Play Tech Chat">
+      <Text layoutX="254.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Play Tech Chat">
          <font>
             <Font name="Cambria Bold" size="33.0" />
          </font>
       </Text>
-      <ImageView blendMode="MULTIPLY" fitHeight="75.0" fitWidth="85.0" layoutX="188.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView blendMode="MULTIPLY" fitHeight="80.0" fitWidth="80.0" layoutX="174.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/icons8-robot.gif" />
          </image>
       </ImageView>
-      <JFXTextField fx:id="txtUsername" focusColor="#425ba6" labelFloat="true" layoutX="199.0" layoutY="209.0" prefHeight="32.0" prefWidth="276.0" promptText="  Username" style="-fx-background-color: white;" unFocusColor="#4d4d4d00">
+      <JFXTextField fx:id="txtUsername" focusColor="#425ba6" labelFloat="true" layoutX="164.0" layoutY="198.0" prefHeight="32.0" prefWidth="323.0" promptText="  Username" style="-fx-background-color: white;" unFocusColor="#4d4d4d00">
          <effect>
             <DropShadow color="#0000001f" />
          </effect>
@@ -29,12 +29,12 @@
             <Font name="System Italic" size="12.0" />
          </font>
       </JFXTextField>
-      <JFXButton buttonType="RAISED" layoutX="348.0" layoutY="270.0" onAction="#loginOnAction" prefHeight="25.0" prefWidth="110.0" style="-fx-background-radius: 360; -fx-background-color: #30cf98;" text="Log in">
+      <JFXButton buttonType="RAISED" layoutX="334.0" layoutY="285.0" onAction="#loginOnAction" prefHeight="28.0" prefWidth="124.0" style="-fx-background-radius: 360; -fx-background-color: #30cf98;" text="Log in">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="216.0" layoutY="270.0" onAction="#closeProgramOnAction" prefHeight="25.0" prefWidth="110.0" style="-fx-background-radius: 360; -fx-background-color: #F0F0F0;" text="Cancel">
+      <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="285.0" onAction="#closeProgramOnAction" prefHeight="28.0" prefWidth="124.0" style="-fx-background-radius: 360; -fx-background-color: #F0F0F0;" text="Cancel">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
